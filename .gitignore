@@ -6,3 +6,5 @@
 /HelloOpenGL/OpenGL/lib-mingw-w64
 /HelloOpenGL/OpenGL/lib-vc2010
 /HelloOpenGL/HelloOpenGL/Debug
+/HelloOpenGL/Debug
+/HelloOpenGL/.vs
