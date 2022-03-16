@@ -69,12 +69,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\OpenGL\src\glad.c" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="main1.cpp" />
-    <ClCompile Include="main2.cpp" />
+    <ClCompile Include="02_trangle_2.cpp" />
+    <ClCompile Include="01_hello.cpp" />
+    <ClCompile Include="02_trangle.cpp" />
+    <ClCompile Include="03_shader.cpp" />
+    <ClCompile Include="03_shader_2.cpp" />
+    <ClCompile Include="15_light_caster.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\OpenGL\include\glad\glad.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="5.1.light_casters.fs" />
+    <None Include="5.1.light_casters.vs" />
+    <None Include="5.1.light_cube.fs" />
+    <None Include="5.1.light_cube.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

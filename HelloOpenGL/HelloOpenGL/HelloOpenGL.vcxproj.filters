@@ -13,18 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\shader">
+      <UniqueIdentifier>{5ea68270-74d4-4b8d-817c-d8a199855ce2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\OpenGL\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main1.cpp">
+    <ClCompile Include="01_hello.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="02_trangle_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main2.cpp">
+    <ClCompile Include="02_trangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="03_shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="03_shader_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="15_light_caster.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,5 +44,19 @@
     <ClInclude Include="..\OpenGL\include\glad\glad.h">
       <Filter>源文件</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="5.1.light_casters.vs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="5.1.light_casters.fs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="5.1.light_cube.vs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="5.1.light_cube.fs">
+      <Filter>源文件\shader</Filter>
+    </None>
   </ItemGroup>
 </Project>
